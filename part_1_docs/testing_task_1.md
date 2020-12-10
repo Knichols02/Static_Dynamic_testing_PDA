@@ -15,12 +15,13 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-
+  # needs the def __init__ and setting up variables and instance variables, e.g. self.card
+  
 
   def check_for_ace(self, card):
     if card.value = 1: #card.value == 1: 
       return True
-    else
+    else               # needs : 
       return False
    
 
