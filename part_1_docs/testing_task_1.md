@@ -25,7 +25,7 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): # def not dif 
   if card1.value > card2.value:
     return card  #card1
   else:
@@ -36,7 +36,7 @@ class CardGame:
 def cards_total(self, cards):
   total     #the total hasn't been defined, e.g. total = 0:
   for card in cards:
-    total += card.value  #no if statement 
-    return "You have a total of" + total
+    total += card.value  
+    return "You have a total of" + total #str(total)
   
 ```
